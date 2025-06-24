@@ -31,8 +31,6 @@
 
 - Install libraries:
 
-```bash
-pip install pandas seaborn matplotlib
 
 # Task 2 - Predict Future Stock Prices
 
@@ -76,7 +74,5 @@ Use historical stock data to predict the next day's closing price using regressi
 
 1. Install required libraries:
 
-```bash
-pip install yfinance pandas scikit-learn matplotlib seaborn
 
 
