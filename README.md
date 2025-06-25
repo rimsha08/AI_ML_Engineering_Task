@@ -29,7 +29,7 @@
 
 ## How to Run
 
-- Install libraries:
+- Install libraries
 
 
 # Task 2 - Predict Future Stock Prices
@@ -72,7 +72,51 @@ Use historical stock data to predict the next day's closing price using regressi
 
 ## How to Run
 
-1. Install required libraries:
+1. Install required libraries
+
+# Task 3 - Heart Disease Prediction
+
+## Objective
+
+Predict whether a person is at risk of heart disease using health-related data.
+
+## Dataset
+
+- UCI Heart Disease Dataset (from Kaggle)
+- Target: 1 = disease, 0 = no disease
+
+## Steps
+
+1. **Data Cleaning**
+   - Checked and handled missing values.
+
+2. **Exploratory Data Analysis**
+   - Explored feature distributions and relationships.
+   - Plotted correlation heatmap and other EDA visuals.
+
+3. **Modeling**
+   - Used Logistic Regression and optionally Decision Tree.
+   - Trained using 80-20 train-test split.
+
+4. **Evaluation**
+   - Accuracy score
+   - Confusion Matrix
+   - ROC Curve & AUC score
+
+5. **Feature Importance**
+   - Identified key predictors of heart disease.
+
+## Tools Used
+
+- Python
+- pandas
+- matplotlib, seaborn
+- scikit-learn
+
+## How to Run
+
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ronitf/heart-disease-uci).
+2. Install dependencies-- pip install pandas matplotlib seaborn scikit-learn
 
 
 
