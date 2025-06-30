@@ -118,6 +118,33 @@ Predict whether a person is at risk of heart disease using health-related data.
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ronitf/heart-disease-uci).
 2. Install dependencies-- pip install pandas matplotlib seaborn scikit-learn
 
+# Task 4 - General Health Query Chatbot (Prompt-Based)
+
+## Objective
+
+Build a chatbot that answers health-related questions using a Large Language Model (LLM) and prompt engineering.
+
+## Tools
+
+- OpenAI GPT-3.5 via API
+- Python
+
+## Features
+
+- Friendly and clear responses using prompt engineering
+- Built-in safety response for sensitive or medical-risk questions
+- Simple function-based chatbot
+
+## Sample Queries
+
+- "What causes a sore throat?"
+- "Is paracetamol safe for children?"
+
+## How to Use
+
+1. Install OpenAI-- pip install openai
+
+
 # Task 6 - House Price Prediction
 
 ## Objective
