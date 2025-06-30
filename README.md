@@ -118,5 +118,44 @@ Predict whether a person is at risk of heart disease using health-related data.
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ronitf/heart-disease-uci).
 2. Install dependencies-- pip install pandas matplotlib seaborn scikit-learn
 
+# Task 6 - House Price Prediction
+
+## Objective
+
+Build a regression model to predict house prices based on property features.
+
+## Dataset
+
+- House price dataset (from Kaggle or similar)
+- Features: size, number of bedrooms, location, etc.
+
+## Steps
+
+1. **Data Preprocessing**
+   - Handled missing values
+   - Encoded categorical features (e.g., location)
+   - Scaled features for linear regression
+
+2. **Modeling**
+   - Used Linear Regression and Gradient Boosting
+   - Trained using 80-20 train/test split
+
+3. **Evaluation**
+   - Metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE)
+   - Plotted actual vs predicted prices
+
+## Tools Used
+
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+
+## How to Run
+
+1. Download the dataset from Kaggle.
+2. Install dependencies-- pip install pandas numpy scikit-learn matplotlib seaborn
+
+
 
 
